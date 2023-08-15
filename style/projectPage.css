@@ -1,0 +1,28 @@
+body {
+	margin: 0;
+}
+
+.project-section {
+	position: relative;
+	min-height: 100vh;
+	padding: 1px 0px;
+	color: blue;
+}
+
+.project-section-image {
+	position: sticky;
+	top: 0px;
+	height: 100vh;
+	z-index: -1;
+	
+}
+
+.move-smile {
+	left:50%;
+	transform: translateX(-17%);
+}
+
+.project-section-content {
+	position: relative;
+	transform: translateY(-100vh);
+}

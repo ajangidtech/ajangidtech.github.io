@@ -1,0 +1,80 @@
+.carousel-wrapper {
+    position: relative;
+    margin: auto;
+    height: 400px;
+    width: 800px;
+  }
+  
+  .carousel-viewport {
+    position: relative;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+  
+    overflow: scroll;
+    scroll-behavior: smooth;
+  }
+  
+  .carousel {
+    position: relative;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .carousel-item {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+  }
+
+  .carousel img {
+    margin: auto;
+    display: block;
+    height: 100%;
+  }
+
+  .scroll-left {
+    position: absolute;
+    top: calc(50% - 20px);
+    left: 10px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 100px;
+    height: auto;
+    width: auto;
+    font-size: 3em;
+    font-weight: bold;
+    z-index: 10;
+  }
+  
+  .scroll-right {
+    position: absolute;
+    top: calc(50% - 20px);
+    right: 10px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 100px;
+    height: auto;
+    width: auto;
+    font-size: 3em;
+    z-index: 10;
+  }
+  
+  .scroll-right:hover, .scroll-left:hover {
+    cursor: pointer;
+    color: #222222;
+  }
+  
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .carousel-viewport::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .carousel-viewport {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }

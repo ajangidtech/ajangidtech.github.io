@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+  }
+  
+  nav {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+  }
+  
+  #threejs-canvas {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+  }
+  
+  #name {
+    display: inline-block;
+    font-size: 2.5em;
+    padding: 20px;
+    color: black;
+  }
+  
+  #navigation-links {
+    display: inline-block;
+    float: right;
+    padding: 20px;
+  }
+  
+  #navigation-links a {
+    color: black;
+    text-decoration: none;
+    margin: 5px;
+  }
+  
+  .header {
+    text-align: center;
+    height: calc(100vh - 100px);
+    padding: 50px;
+    color: black;
+  }
+  
+  .hero-message {
+    margin-top: 40vh;
+  }
+
+  .carousel-wrapper {
+    margin-top: 70px;
+  }
+  

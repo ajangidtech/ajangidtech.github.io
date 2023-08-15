@@ -1,0 +1,41 @@
+--- FILE NAVIGATION ---
+
+ls - List
+cd - Change Directory
+
+--- GIT COMMANDS ---
+
+git - git commands
+* git clone <Project URL>             - Clone a project (Download a project on github)
+* git status                          - shows information about files in project
+* git add <files>                     - add files to update onto your project files
+  * "." means add all files
+  * you can add individual files too by providing the name of the file
+* git commit -m "message with your commit"
+* git push
+
+- Updating Files on github -
+1. Add all the files you want to update using "git add"
+2. commit the files with a message using "git commit"
+3. upload the files up to github using "git push"
+
+- When pushing -
+* generally your computer will save your username and password but if asked to provide,
+  you'll want to type in your github username and a personal access token as a password
+
+
+- Creating a personal access token on github -
+-> settings -> developer settings -> personal access token -> generate token -> make sure to check "repo"
+
+
+--- VIM COMMANDS ---
+vi <filename - open a file in VIM
+
+
+-- inside Vim --
+esc - exit insert mode
+a - insert mode
+:w - save
+:q - quit
+:q! - force quit
+:wq - (must be outside of insert mode) save and exit

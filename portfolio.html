@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Andrew Jang</title>
+    <link rel="stylesheet" type="text/css" href="./style/carousel.css" />
+    <link rel="stylesheet" type="text/css" href="./style/portfolio.css" />
+    <link rel="stylesheet" type="text/css" href="./style/project.css" />
+
+    <script async src="https://unpkg.com/es-module-shims@1.6.3/dist/es-module-shims.js"></script>
+
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@0.152.1/build/three.module.js",
+          "three/addons/": "https://unpkg.com/three@0.152.1/examples/jsm/"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <nav>
+      <div id="name">
+        Andrew
+      </div>
+      <div id="navigation-links">
+        <a href="">ABOUT</a>
+        <a href="./portfolio.html">PROJECTS</a>
+        <a href="">CONTACT</a>
+      </div>
+    </nav>
+    <div class="carousel-wrapper">
+      <div class="scroll-left">
+        &lt;
+      </div>
+      <div class="scroll-right">
+        &gt;
+      </div>
+      <div class="carousel-viewport">
+        <div id="carousel-body" class="carousel">
+
+        </div>
+      </div>
+    </div>
+
+    <div class="project-section" >
+      <h1 id="project-title">Tic Tac Toe!</h1>
+      <!--<p>Labels: JavaScript, HTML/CSS</p>-->
+      <p id="project-description">
+        One of the projects that I work on with my students is a simple Tic Tac Toe
+        website using HTML/CSS and JavaScript. Some cool features for this website
+        are css effects, interactive components and logic that can determine if
+        someone won the tic tac toe game!
+      </p>
+    </div>
+
+    <script type="module" src="./script/carousel.js"></script>
+  </body>
+</html>

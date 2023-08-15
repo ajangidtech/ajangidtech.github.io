@@ -3,14 +3,46 @@
   <head>
     <meta charset="utf-8">
     <title>Andrew Jang</title>
+    <link rel="stylesheet" type="text/css" href="./style/style.css" />
+
+    <script async src="https://unpkg.com/es-module-shims@1.6.3/dist/es-module-shims.js"></script>
+
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@0.152.1/build/three.module.js",
+          "three/addons/": "https://unpkg.com/three@0.152.1/examples/jsm/"
+        }
+      }
+    </script>
   </head>
   <body>
-    <h1>
-      Hi, I'm Andrew!
-    </h1>
-    <p>
-      I'm an instructor at IDTECH that teaches web development.
-      I enjoy making websites and working with design!
-    </p>
+    <div id="threejs-canvas">
+    </div>
+    <nav>
+      <div id="name">
+        Andrew
+      </div>
+      <div id="navigation-links">
+        <a href="">ABOUT</a>
+        <a href="./portfolio.html">PROJECTS</a>
+        <a class="pop-out-button" href="">CONTACT</a>
+      </div>
+    </nav>
+    <div class="header">
+      <div class="hero-message">
+        <h1>
+          Hi, I'm Andrew!
+        </h1>
+        <p>
+          I'm an instructor at IDTECH that teaches web development.
+          I enjoy making websites and working with design!
+        </p>
+      </div>
+
+    </div>
+
+    <script type="module" src="./script/carousel.js"></script>
+    <script type="module" src="./script/script.js"></script>
   </body>
 </html>
